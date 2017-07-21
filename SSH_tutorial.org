@@ -4,7 +4,7 @@
 This work by Konrad Förstner is licensed under a [[https://creativecommons.org/licenses/by/4.0/][Creative Commons
 Attribution 4.0 International License]].
 
-Version: 0.1
+Version: 0.1dev
 
 ** Introduction
 
@@ -222,7 +222,7 @@ administrators might ask you for the public key in order to give you
 access to a remote machine without any password). More details
 regarding this public/private key approach can be found [[https://en.wikipedia.org/wiki/Public-key_cryptography][here]].
 
-Generate a key pair on your local machine. We use =-b 4096= in order
+Generate a key pair on your local machine. We use =-b 4096 in order
 to generate a stronger key than with the default settings and =-N ""=
 to set no passphrase for the key. Generating the key can take a while.
 
@@ -280,6 +280,8 @@ machine:
 
 #+BEGIN_EXAMPLE
 $ cat ~/.ssh/*.pub | ssh alice@bobs_server 'cat >> ~/.ssh/authorized_keys'
+$ cat ~/.ssh/*.pub | ssh alice@bobs_server 'chmod 700 ~/.ssh'
+$ cat ~/.ssh/*.pub | ssh alice@bobs_server 'chmod 600 ~/.ssh/authorized_keys'
 #+END_EXAMPLE
 
 Add the private key to local SSH key-chain:
