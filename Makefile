@@ -1,10 +1,11 @@
 pdf:
 	pandoc \
-	   --latex-engine xelatex \
+	   --pdf-engine xelatex \
 	   --variable mainfont="DejaVu Sans" \
 	   --variable sansfont="DejaVu Sans" \
-	   --toc -o SSH_tutorial.pdf \
+	   -o SSH_tutorial.pdf \
 	   SSH_tutorial.org
+           # --toc 
 
 clean:
 	rm -f *pdf *html
