@@ -1,6 +1,6 @@
 ** SSH Tutorial
 
-*UNDER DEVELOPMENT*
+*UNDER HEAVY DEVELOPMENT*
 
 A small guide how to use SSH (Secure Shell) to access remote machines.
 
