@@ -4,5 +4,5 @@
 
 A small guide how to use SSH (Secure Shell) to access remote machines.
 
-TODO:
+*TODO*:
 - Differently colored background for command on the local machine and the server
