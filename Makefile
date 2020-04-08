@@ -4,6 +4,8 @@ pdf:
 	   --variable mainfont="DejaVu Sans" \
 	   --variable sansfont="DejaVu Sans" \
            --toc \
+	   -V linkcolor:red \
+           -V urlcolor:red \
 	   -o SSH_tutorial.pdf \
 	   SSH_tutorial.org
 
