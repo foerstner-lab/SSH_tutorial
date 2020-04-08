@@ -1,3 +1,12 @@
 ** SSH Tutorial
 
+<<<<<<< HEAD
 A small guide how to use SSH (Secure Shell) to access remote machines.
+=======
+*UNDER HEAVY DEVELOPMENT*
+
+A small guide how to use SSH (Secure Shell) to access remote machines.
+
+*TODO*:
+- Differently colored background for command on the local machine and the server
+>>>>>>> b1e63016208da37100a1016a9ab7bc75c4e8d23d
