@@ -222,8 +222,8 @@ administrators might ask you for the public key in order to give you
 access to a remote machine without any password). More details
 regarding this public/private key approach can be found [[https://en.wikipedia.org/wiki/Public-key_cryptography][here]].
 
-Generate a key pair on your local machine. We use =-b 4096 in order
-to generate a stronger key than with the default settings and =-N ""=
+Generate a key pair on your local machine. We use ~-b 4096~ in order
+to generate a stronger key than with the default settings and ~-N ""~
 to set no passphrase for the key. Generating the key can take a while.
 
 #+BEGIN_EXAMPLE
