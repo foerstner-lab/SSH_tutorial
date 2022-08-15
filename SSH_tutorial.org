@@ -164,6 +164,13 @@ Sure you can use scp to copy from the server to you local machine:
 $ scp alice@bobs_server:/data/my_local_big_file.txt .
 #+END_EXAMPLE
 
+
+Note: scp is not the ideal tool. The developer of SSH [[https://www.openssh.com/txt/release-8.0][state]]: "The scp
+protocol is outdated, inflexible and not readily fixed. We recommend
+the use of more modern protocols like sftp and rsync for file transfer
+instead." So rather use [[https://rsync.samba.org/][rsync]] [[https://linuxconfig.org/using-rsync-over-ssh-an-ultimate-backup-tool][over ssh]].
+
+
 ** Configure SSH
 
 While you are now capable of working on the remote machine you have to
